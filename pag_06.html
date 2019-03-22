@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Contabilidad de costos</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<style type="text/css">
+		table .subtitular{
+			background-color: #14C85B;
+			margin-left: 1%;
+			margin-right: 10%;
+			font-size: 15px;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body class="testimonial">
+
+	<div class="contenedor">
+		<header>
+			<table>
+				<td><h1>Contabilidad de costos</h1></td>
+				<!-menu->
+				<td><ul class="nav">
+					<li><a href="pag_08.html">Glosario</a></li>
+					<li><a href="">Información</a>
+						<ul>
+							<li><a href="pag_02.html">Tipos de contabilidad</a></li>
+							<li><a href="pag_03.html">Estados fiancieros</a></li>
+							<li><a href="pag_04.html">Objetivos de la contabilidad de costos</a></li>
+							<li><a href="pag_05.html">Sistema de costos</a>
+							<li><a href="pag_06.html">Valuación de inventarios</a>
+							<li><a href="pag_07.html">Ejercicios</a>
+							</li>
+					</ul>
+					</li>
+					<li><a href="Index.html">Inicio</a></li>
+				</td></ul>
+			</table>
+		</header>
+	
+		<section class="main" style="width: 100%">
+			<h1>Valuación de inventarios.</h1>
+			<p>
+				La valuación de inventarios es el proceso en que se selecciona y se aplica una base específica para valuar los inventarios en términos monetarios. A continuación se presentarán 4 métodos de valuación de inventarios que son los que comúnmente se utilizan en las empresas:
+			</p> 
+			<ul>
+				<li type="disc">
+					<b>PEPS</b>
+					<p> 
+						los primeros artículos en entrar al inventario son los primeros en ser vendidos (costo de ventas) o consumidos (costo de producción). El inventario final está formado por los últimos artículos que entraron a formar parte de los inventarios.
+					</p>
+				</li>
+				<li type="disc">
+					<b>UEPS</b>
+					<p> 
+						El método UEPS para calcular el costo del inventario es el opuesto del método PEPS. Los últimos artículos que entraron a formar parte del inventario son los primeros en venderse o consumirse. En este método no debe costearse un material a un precio diferente sino hasta que la partida más reciente de artículos se haya agotado y así sucesivamente. Si se recibe en almacén una nueva partida, automáticamente el costo de esa partida se vuelve el que se utiliza en las nuevas salidas.
+					</p>
+				</li>
+				<li type="disc">
+					<b>Promedio</b>
+					<p> Este es el método más utilizado por las empresas y consiste en calcular el costo promedio unitario de los artículos.</p>
+				</li>
+			</ul>
+			<p><b>PEPS</b></p>
+			<table style="border-spacing: 1px;">
+				<tr>
+					<td class="subtitular" style="background-color: " colspan="8">Movimiento de almacén</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Concepto</td>
+					<td class="subtitular">Entrada</td>
+					<td class="subtitular">Salida</td>
+					<td class="subtitular">uni</td>
+					<td class="subtitular">Costo U</td>
+					<td class="subtitular">Debe</td>
+					<td class="subtitular">Haber</td>
+					<td class="subtitular">Saldo</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Compra</td>
+					<td class="subtitular"> 10</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 10</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular">200</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">200</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Compra</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 30</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular">300</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">500</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Salida</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 10</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">200</td>
+					<td class="subtitular">300</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Salida</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">  5</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 75</td>
+					<td class="subtitular">225</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Compra</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 30</td>
+					<td class="subtitular"> 17</td>
+					<td class="subtitular">255</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">480</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Flete</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 37</td>
+					<td class="subtitular">300</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">780</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Salida</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 10</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">150</td>
+					<td class="subtitular">630</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Des 2%</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">36.08</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 6.37</td>
+					<td class="subtitular">623.62</td>
+				</tr>		
+			</table>
+			<p><b>UEPS</b></p>
+			<table style="border-spacing: 1px;">
+				<tr>
+					<td class="subtitular" style="background-color: " colspan="8">Movimiento de almacén</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Concepto</td>
+					<td class="subtitular">Entrada</td>
+					<td class="subtitular">Salida</td>
+					<td class="subtitular">uni</td>
+					<td class="subtitular">Costo U</td>
+					<td class="subtitular">Debe</td>
+					<td class="subtitular">Haber</td>
+					<td class="subtitular">Saldo</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Compra</td>
+					<td class="subtitular"> 10</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 10</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular">200</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">200</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Compra</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 30</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular">300</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">500</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Salida</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">225</td>
+					<td class="subtitular">275</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Compra</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 30</td>
+					<td class="subtitular"> 17</td>
+					<td class="subtitular">225</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">530</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Flete</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 30</td>
+					<td class="subtitular"> 37</td>
+					<td class="subtitular">300</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">830</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Salida</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 10</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular"> 37</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">370</td>
+					<td class="subtitular">460</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Des 2%</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">30.08</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">6.37</td>
+					<td class="subtitular">396</td>
+				</tr>
+			</table>
+			<p><b>Promedio</b></p>
+			<table style="border-spacing: 1px;">
+				<tr>
+					<td class="subtitular" style="background-color: " colspan="8">Movimiento de almacén</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Concepto</td>
+					<td class="subtitular">Entrada</td>
+					<td class="subtitular">Salida</td>
+					<td class="subtitular">uni</td>
+					<td class="subtitular">Costo U</td>
+					<td class="subtitular">Debe</td>
+					<td class="subtitular">Haber</td>
+					<td class="subtitular">Saldo</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Compra</td>
+					<td class="subtitular"> 10</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 10</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular">200</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">200</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Compra</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 30</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular">300</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">500</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Salida</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular">16.67</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">250.05</td>
+					<td class="subtitular">249.95</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Compra</td>
+					<td class="subtitular"> 15</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 30</td>
+					<td class="subtitular"> 17</td>
+					<td class="subtitular">225</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">504.95</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Flete</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 37</td>
+					<td class="subtitular">300</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">804.95</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Salida</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular"> 10</td>
+					<td class="subtitular"> 20</td>
+					<td class="subtitular">26.80</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">268</td>
+					<td class="subtitular">536.95</td>
+				</tr>
+				<tr>
+					<td class="subtitular">Des 2%</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">36.08</td>
+					<td class="subtitular">   </td>
+					<td class="subtitular">6.37</td>
+					<td class="subtitular">330.58</td>
+				</tr>
+			</table>
+		</section>
+		<aside style="display: none;">
+			
+		</aside>
+		<footer>
+			<p>
+				<b>Desarrollador:</b>
+				<ul>
+					<li type="disc">Cesar Alejandro Hernández Alistac</li>
+					<li type="disc">Marco Uriel Mejia Morales</li>
+					<li type="disc">Jocelyn Salinas Dominguez</li>
+				</ul>
+			</p>
+		</footer>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
